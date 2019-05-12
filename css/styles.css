@@ -1,13 +1,22 @@
 body {
-    background-color: pink;
-    color: white;
+    background-color: darkgray;
+    color: black;
 }
 
 h1 {
-    border-width: 1px;
+    border-width: 4px;
     border-style: solid;
     border-color: black;
+    text-align: center;
+    font-family: monospace; 
+    font-size: 40px;
+}
+
+p  {
+    text-align: center;     
 }
 
 /*do the above  AND add two additional settings.
 They can be anything you want—something to change the font family, something that makes certain text italicized, a border applied to an image, etc. Just remember, the pattern is always the same*/
+
+/*I want to make a good nav bar*/
