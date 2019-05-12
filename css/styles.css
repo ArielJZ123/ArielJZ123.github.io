@@ -1,0 +1,13 @@
+body {
+    background-color: pink;
+    color: white;
+}
+
+h1 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+/*do the above  AND add two additional settings.
+They can be anything you want—something to change the font family, something that makes certain text italicized, a border applied to an image, etc. Just remember, the pattern is always the same*/
