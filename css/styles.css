@@ -16,7 +16,53 @@ p  {
     text-align: center;     
 }
 
+img {
+    border-style: double;
+    border-color: black;
+    display: block;
+    margin: 0 auto;
+    width
+}
+
+/*
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+*/
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #555;
+    text-align: center;
+    display: inline;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+    padding: 0;
+    border: dashed;
+}
+/*I want to make a good nav bar so working to make it horizontal, will add class*/
+
 /*do the above  AND add two additional settings.
 They can be anything you want—something to change the font family, something that makes certain text italicized, a border applied to an image, etc. Just remember, the pattern is always the same*/
 
 /*I want to make a good nav bar*/
+
+
+/*Style is always:
+name of tag, opening curly bracket
+
+  name of property, colon, value for that property, semicolon
+
+closing curly bracket
+*/
