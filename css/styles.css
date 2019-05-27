@@ -21,7 +21,8 @@ img {
     border-color: black;
     display: block;
     margin: 0 auto;
-    width
+    width: auto;
+    height: auto;
 }
 
 /*
