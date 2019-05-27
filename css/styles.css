@@ -32,25 +32,51 @@ footer {
 }
 */
 
-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    border: 1px solid #555;
-    text-align: center;
-    display: inline;
+#nav {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+	
+#nav li {
+  display: inline;
+  padding-right: 70px;
+}
+
+#nav a {
+  text-decoration: none;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: normal;
+  letter-spacing: normal;
+  line-height: 1.3em;
+  color: white;
+}
+
+#nav a:hover {
+  text-decoration: underline;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: normal;
+  letter-spacing: normal;
+  line-height: 1.3em;
+}
+
+#nav a.active{
+  color: black;
 }
 
 h2 {
     text-align: center;
 }
 
-ul {
-    text-align: center;
-    list-style-position: inside;
-    padding: 0;
-    border: dashed;
-}
+
 /*I want to make a good nav bar so working to make it horizontal, will add class*/
 
 /*do the above  AND add two additional settings.
