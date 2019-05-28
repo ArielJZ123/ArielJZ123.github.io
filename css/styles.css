@@ -7,6 +7,7 @@ h1 {
     text-align: center;
     font-family: 'Delius Swash Caps', cursive;
     font-size: 3em;
+    background-image: url("../images/leash.jpeg");
 }
 
 p  {
@@ -23,13 +24,47 @@ img {
     margin: 0 auto;
 }
 
+#lefts {
+  overflow: hidden;
+  display: inline;
+  float: left;
+}
+
+#lefts h2 { 
+    text-align: center;
+}
+
+#lefts li {
+   list-style-type: none;  
+    text-align: center;
+}
+
+#rights {
+  overflow: hidden;
+  float: right;
+  display: inline; 
+}
+
+#rights li {
+   list-style-type: none;   
+    text-align: center;
+} 
+
+#rights h2 { 
+    text-align: center;
+}
+
 
 #nav {
   list-style-type: none;
   overflow: hidden;
   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align: center; 
+  border-bottom-width: thick; 
+  border-bottom-color: black;
+  border-bottom-style: groove;
+  border-image: url(mixed.jpeg); 
 }
 	
 #nav li {
