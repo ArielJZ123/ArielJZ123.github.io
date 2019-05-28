@@ -58,6 +58,7 @@ img {
   text-transform: normal;
   letter-spacing: normal;
   line-height: 1.5em;
+  color: black; 
 }
 
 #nav a.active{
