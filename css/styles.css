@@ -11,7 +11,9 @@ h1 {
 
 p  {
     text-align: center;
-    font-family: 'Delius Swash Caps', cursive;  
+    font-family: 'Delius Swash Caps', cursive; 
+    font-size: 1.4em;
+    line-height: 1.5em;
 }
 
 img {
