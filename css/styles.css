@@ -69,6 +69,11 @@ h2 {
     text-align: center;
 }
 
+ul {
+   font-family: 'Delius Swash Caps', cursive;  
+    line-height: 2em;
+}
+
 
 footer {
     text-align: center;
