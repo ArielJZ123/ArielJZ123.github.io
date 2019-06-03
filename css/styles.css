@@ -7,14 +7,13 @@ h1 {
     text-align: center;
     font-family: 'Delius Swash Caps', cursive;
     font-size: 3em;
-    background-image: url("../images/leash.jpeg");
 }
 
 p  {
     text-align: center;
     font-family: 'Delius Swash Caps', cursive; 
     font-size: 1.4em;
-    line-height: 1.5em;
+    line-height: 1.8em;
 }
 
 img {
@@ -64,7 +63,6 @@ img {
   border-bottom-width: thick; 
   border-bottom-color: black;
   border-bottom-style: groove;
-  border-image: url(mixed.jpeg); 
 }
 	
 #nav li {
@@ -114,3 +112,5 @@ footer {
     text-align: center;
     bottom: auto;
 }
+
+#rotate {transform: rotate(90deg);}
