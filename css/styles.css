@@ -9,13 +9,26 @@ h1 {
     text-align: center;
     font-family: 'Delius Swash Caps', cursive;
     font-size: 3em;
+    margin: 0.4em;
+    padding: 0.2em;
+    border-style: double;
+    border-radius: 60px; 
+    border-color: whitesmoke;
+    /*background-color: lightsteelblue;*/
+    color: black;
+    text-shadow: 1px 1px 20px black, 0px 0px 10px ghostwhite, 0px 0px 10px blue; 
+    background-color: darkgrey;
 }
 
 p  {
     text-align: center;
     font-family: 'Delius Swash Caps', cursive; 
     font-size: 1.4em;
-    line-height: 1.8em;
+    line-height: 2em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
 }
 
 img {
