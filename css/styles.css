@@ -110,7 +110,9 @@ ul {
 
 footer {
     text-align: center;
-    bottom: auto;
+    background: royalblue;
+    padding: 2em;
 }
 
 #rotate {transform: rotate(90deg);}
+
