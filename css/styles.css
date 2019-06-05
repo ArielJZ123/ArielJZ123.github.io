@@ -148,7 +148,7 @@ footer {
 }
 
 
-div {
+.div {
     max-width: 120em;
     height: 55em;
     margin: 1em;
@@ -156,9 +156,14 @@ div {
     background-color: gray; 
 }
 
-#image-div {
-    display: block;
-    width: 60px
-    height: 40px;
-    overflow: hidden   
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
 }
