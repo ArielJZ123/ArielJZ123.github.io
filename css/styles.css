@@ -1,10 +1,18 @@
 body {
     background: url("../dogwalking.gif");
     background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 /*border-image: url(https://cdn.dribbble.com/users/1731080/screenshots/6171472/main_cycle.gif) repeat;*/
 
+#wrapper {
+    min-height: 100%;
+    position: relative;
+    
+}
 h1 {
     text-align: center;
     font-family: 'Delius Swash Caps', cursive;
@@ -126,12 +134,13 @@ ul {
 footer {
     text-align: center;
     background-color: royalblue;
-    padding-bottom: 1em;  
-    padding-top: 1em;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
     /*position: fixed;*/ 
     width: 100%;
-    margin-bottom: -50px;
-    height: 80px;
+    height: 40px;
+    padding-top: 1em;
     
 }
 #rotate {
@@ -139,7 +148,7 @@ footer {
 }
 
 
-#div {
+div {
     max-width: 120em;
     height: 55em;
     margin: 1em;
