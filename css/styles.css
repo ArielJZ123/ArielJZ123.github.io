@@ -40,7 +40,6 @@ p  {
 }
 
 img {
-    border-style: double;
     border-color: black;
     display: block;
     margin: 0 auto;
@@ -191,7 +190,10 @@ footer {
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
-  width: 33.33%;
+  width: 30.33%;
+    padding-top: 2em;
+    padding-bottom: 2em;   
+    padding-left: 1em;
 }
 
 /* Clear floats after image containers */
