@@ -24,7 +24,7 @@ h1 {
     border-color: whitesmoke;
     /*background-color: lightsteelblue;*/
     color: black;
-    text-shadow: 1px 1px 20px black, 0px 0px 10px ghostwhite, 0px 0px 10px blue; 
+    text-shadow: 1px 1px 20px black, 0px 0px 10px ghostwhite, 0px 0px 10px red; 
     background-color: darkgrey;
 }
 
@@ -37,6 +37,7 @@ p  {
     margin-bottom: 1.5em;
     margin-left: 1.5em;
     margin-right: 1.5em;
+    color: black;
 }
 
 img {
