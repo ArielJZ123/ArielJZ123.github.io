@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <title>Happy Customers</title>
+        <meta name="description" content="Some of our happy customers!">
+        <link rel="stylesheet" type="text/css" href="../css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Delius+Swash+Caps&display=swap" rel="stylesheet">
+   
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+        
+    </head>
+    
+        <body>
+            <div class="div">
+        <header>
+          <h1>Our Happy Customers</h1> 
+        </header>
+         
+    <nav id="nav">
+         <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="services.html">Services Offered</a></li>
+            <li><a class="active" href="customers.html">Happy Customers</a></li>
+            <li><a href="contact-info.html">Contact Information</a></li>
+        </ul>    
+    </nav>
+        
+        <p>Take a look at some of our happy customers! We take care of all types of animals from young to old and we love them all the same!</p>    
+
+                <section>
+        <div class="gallery">
+            <a target="_blank" href="../images/HY.jpg">
+            <img src="../images/HY.jpg" alt="Two big labradors out for a walk" width="600" height="400">
+            </a>
+            <div class="desc">Two labroadors enjoying their walk</div> 
+                </div>
+                
+        <div class="gallery">     
+            <a target="_blank" href="../images/W.jpg">
+            <img src="../images/W.jpg" alt="A labrador in the car ride home" width="600" height="400">
+            </a>
+            <div class="desc">A labrador enjoying the car ride home</div>
+                </div>
+            
+        <div class="gallery">
+        <a target="_blank" href="../images/C.jpg">
+            <img src="../images/C.jpg" alt="A little dog on a car ride" width="600" height="400">
+            </a>
+            <div class="desc">Coco in the car</div>
+                </div>
+
+        <div class="gallery">
+            <a target="_blank" href="../images/T.jpg">
+            <img src="../images/T.jpg" alt="Tired bulldog" width="600" height="400">
+            </a>
+            <div class="desc">Tilly enjoying her home</div>
+            </div>   
+        </section>
+            </div>
+  
+    <footer>
+        &copy; 2019 Whipple Walker All Rights Reserved    
+    </footer>             
+    </body>
+</html>
