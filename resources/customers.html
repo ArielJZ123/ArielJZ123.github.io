@@ -1,17 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html> 
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+    float: left;
+  width: 33.33%;
+    height: 30vw;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+    
     <head lang="en">
         <meta charset="utf-8">
         <title>Happy Customers</title>
         <meta name="description" content="Some of our happy customers!">
         <link rel="stylesheet" type="text/css" href="../css/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Delius+Swash+Caps&display=swap" rel="stylesheet">
-    </head>
-    
+</head>
+<body>
+            
         <body>
-            <div class="div" id="wrapper">
+            <div class="div">
         <header>
-          <h1>Our Happy Customers</h1> 
+          <h1>Our Happy Customers 2</h1> 
         </header>
          
     <nav id="nav">
@@ -20,32 +40,30 @@
             <li><a href="services.html">Services Offered</a></li>
             <li><a class="active" href="customers.html">Happy Customers</a></li>
             <li><a href="contact-info.html">Contact Information</a></li>
-               <li><a href="http://www.pawschicago.org/our-work/pet-adoption/pets-available/" target="popup" onclick="window.open('http://www.pawschicago.org/our-work/pet-adoption/pets-available/','PAWS','width=600,height=400')">PAWS Adoption</a></li>
-            <li><a href="https://anticruelty.org/adopt-a-new-companion/adopt-a-dog/" target="popup" onclick="window.open('https://anticruelty.org/adopt-a-new-companion/adopt-a-dog/','Anti-Cruelty Society','width=600,height=400')">Anti-Cruelty Society
-                </a></li>
         </ul>    
     </nav>
         
         <p>Take a look at some of our happy customers! We take care of all types of animals from young to old and we love them all the same!</p>    
-<!--        <ul>
-            <li><em>We love dogs!</em></li>
-        </ul>-->
-      
-        <div class="row">
-        <div class="column">
-        <img src="../images/HY.jpg" alt="Two big labradors out for a walk" style="width:100%">
-           </div>
-        <div class="column">     
-        <img id= "rotate" src="../images/W.jpg" alt="A labrador in the car ride home" width=100% >
-            </div>
-        <div class="column">     
-        <img src="../images/T.jpg" alt="Tired bulldog" style="width:90%">
-            </div>
-                </div>
+
+
+                
+<div class="row">
+  <div class="column">
+    <img src="../images/HY2.jpg" alt="Two big labradors out for a walk" style="width:100%;height:100%">
+  </div>
+    
+  <div class="column">
+    <img src="../images/C2.jpg" alt="A little dog on a car ride"  style="width:100%;height:100%" >
+  </div>
+    
+<div class="column">
+    <img src="../images/T2.jpg" alt="Tired bulldog"  style="width:100%;height:100%" >
+</div>   
+
+                </div>  
+  
     <footer>
         &copy; 2019 Whipple Walker All Rights Reserved    
-    </footer>           
-
-            </div>
+    </footer>             
     </body>
 </html>
